@@ -355,3 +355,20 @@ iframe {
     display: block;
 }
 
+.second-color {
+    background-color: lightcyan;
+}
+
+.video-text {
+    margin-top: 60px;
+    margin-left: 75px;
+    width: 500px;
+    color: cyan;
+    font-size: 20px;
+}
+
+.text-contrast-color {
+    color: lightslategray;
+}
+
+/* flow page styles */
