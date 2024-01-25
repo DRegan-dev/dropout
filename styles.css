@@ -186,11 +186,135 @@ footer {
       border-color: transparent;
       box-shadow: 0 0 0px #fff;
     }
-  }
-  .trigger-switch {
+}
+.trigger-switch {
     animation: glowing 7s infinite;
-  }
-  .fa-solid .fa-chevron-down {
+}
+.fa-solid .fa-chevron-down {
     animation: glowing 7s infinite;
     text-decoration: none;
-  }
+}
+
+#med-content {
+    display: block;
+    position: absolute;
+    height: auto;
+    width:100%;
+    background-color: lightslategrey;
+    margin:0;
+    padding-top: 0;
+    clear: both;
+}
+
+#benefits {
+    position: relative;
+    height: 180vh;
+    width:100%;
+    background-color: darkcyan;
+    display: none;
+    overflow: hidden;
+}
+
+#med-benefits {
+    position:absolute;
+    width:100%;
+    height:25%;
+    background: transparent;
+    bottom:0;
+    left:0;
+    display: inline-block;
+    top:50px;
+}
+
+#meditating {
+    width: 50%;
+    height: 30%;
+    margin-top: 160px;
+    margin-left: 580px;
+    right: 0;
+    display: inline-block;
+}
+
+#meditation-image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    border-color: darkblue;
+}
+
+#med-benefits h2 {
+    position: relative;
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-align: left;
+    color:#fff;
+    padding-left: 50px;
+}
+
+#med-benefits ul {
+    position:relative;
+    font-size: 1.5em;
+    margin-bottom: 150px;
+    text-align: left;
+    color: #fff;
+    padding-left: 60px;
+    list-style: none;
+}
+
+#med-benefits li {
+    margin-top: 15px;
+}
+
+#yoga-benefits {
+    position:absolute;
+    width:100%;
+    height:25%;
+    background: transparent;
+    margin:0;
+    padding:0;
+    bottom:0;
+    right:0;
+    display: inline-block;
+    top:750px;
+}
+
+#yoga-benefits h2 {
+    position:relative;
+    font-size: 3em;
+    margin-bottom: 50px;
+    text-align: right;
+    color:#fff;
+    padding-right: 50px;
+}
+
+#yoga-benefits ul {
+    position:relative;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    text-align: right;
+    color: #fff;
+    padding-right: 60px;
+    list-style: none;
+}
+
+#yoga-benefits li {
+    margin-top: 15px;
+}
+
+#yoga-stretch {
+    width: 50%;
+    height: 30%;
+    margin-top: 250px;
+    margin-left: 50px;
+    right: 0;
+    display: inline-block;
+}
+
+#yoga-image {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 10px;
+    border-color: darkblue;
+}
