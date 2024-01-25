@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dosis:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'Abel', sans-serif;
+    border:0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.showcase {
+    position:relative;
+    left:0;
+    width: 100vw;
+    height:100vh;
+    padding:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background: transparent;
+    color: #fff;
+    z-index: 2;
+}
+
+.showcase header {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 30px;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.showcase video {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity:0.8;
+}
