@@ -372,3 +372,34 @@ iframe {
 }
 
 /* flow page styles */
+
+#yoga-videos {
+    position: relative;
+    display: block;
+    height: 225px;
+}
+
+.yoga-blurb {
+    position: relative;
+    display: flex;
+    margin-left: 450px;
+}
+
+#first-yoga-video {
+    display: block;
+}
+
+#second-yoga-video {
+    display: block;
+}
+
+#third-yoga-video {
+    display: block;
+}
+
+.ms-text {
+    display: none;
+}
+
+/* SignUp page styling */
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DropOut.</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">DropOut.</h2>
+            <nav>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <ul class="nav-menu" id="mynav">
+                    <li><a href="index.html">Home.</a></li>
+                    <li><a href="meditate.html">Meditate.</a></li>
+                    <li><a href="flow.html">Flow.</a></li>
+                    <li><a href="signup.html">SignUp.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <video poster="./assets/images/Dropout Hero Poster.png" src="./assets/videos/flow-hero-image.mp4" autoplay muted loop id="dropout-hero"></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>SignUp.</h2>
+            <h3>for Daily Updates and Inspiration.</h3>
+            <form action="your-server-script.php" method="post"></form>
+            <input type="text" placeholder="Full Name" id="full_name" required>
+            <hr>
+            <input type="email" placeholder="Email Address" id="email_address" required>
+            </form>
+        </div>
+        <div class="button-container">
+            <a href="#med-video-container" class="trigger-switch" onclick="myFunction()">
+            <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <!--The following javascript was borrowed from an article called "How to toggle Hide and Show" 
+            which can be found at https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp-->
+            
+        </div>
+        <footer>
+            <ul id="social">
+                <li>
+                    <a href="http://www.faceook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </section>
