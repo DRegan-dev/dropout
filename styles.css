@@ -322,3 +322,36 @@ footer {
 
 /* Meditate Page styles */
 
+.meditation-videos {
+    position: relative;
+    display: block;
+    height: 225px;
+}
+
+.meditation-blurb {
+    position: relative;
+    display: flex;
+    margin-left: 450px;
+}
+
+iframe {
+    position: absolute;
+    width: 30%;
+    height: 95%;
+    display: block;
+    margin-top: 5px;
+    margin-left: 75px;
+}
+
+#first-med-video {
+    display: block;
+}
+
+#second-med-video {
+    display: block;
+}
+
+#third-med-video {
+    display: block;
+}
+
