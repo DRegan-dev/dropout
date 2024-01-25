@@ -74,3 +74,27 @@ body {
     background: darkcyan;
     mix-blend-mode: overlay;
 }
+
+.logo {
+    font-size: 300%;
+}
+
+.nav-menu a {
+    margin:40px;
+    font-size:200%;
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    color: yellow;
+    text-shadow: 0px 0px 25px #fff;
+}
+
+.nav-menu a:focus-visible {
+    color: yellow;
+}
+.nav-menu li {
+    display:inline;
+    padding-top: 20px;
+}
