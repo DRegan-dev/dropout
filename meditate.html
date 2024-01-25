@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>DropOut.</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">DropOut.</h2>
+            <nav>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <ul class="nav-menu" id="mynav">
+                    <li><a href="#home">Home.</a></li>
+                    <li><a href="meditate.html">Meditate.</a></li>
+                    <li><a href="flow.html">Flow.</a></li>
+                    <li><a href="signup.html">SignUp.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <video poster="./assets/images/Dropout Hero Poster.png" src="./assets/videos/Meditate Hero Image.mp4" autoplay muted loop id="dropout-hero"></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2 class="body-text">Meditate.</h2>
+            <h3 class="body-text-small">DropOut of Expectation and into your Self</h3>
+        </div>
+        <div class="button-container">
+            <a href="#benefits" class="trigger-switch" onclick="myFunction()">
+            <i class="fa-solid fa-chevron-down"></i>
+            </a>
+            <!--The following javascript was borrowed from an article called "How to toggle Hide and Show" 
+            which can be found at https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp-->
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("benefits");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+                    } else {
+                        x.style.display = "none";
+                    }
+                    var y = document.getElementById("med-content");
+                    if (y.style.display === "none") {
+                        y.style.display = "block";
+                    } else {
+                        y.style.display = "none";
+                    }
+}           </script>
+        </div>
+        <footer>
+            <ul id="social">
+                <li>
+                    <a href="http://www.faceook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </section>
