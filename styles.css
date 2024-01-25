@@ -403,3 +403,31 @@ iframe {
 
 /* SignUp page styling */
 
+#full_name {
+    width: 200px;
+    height: 40px;
+    font-size: 2rem;
+    opacity: 60.8%;
+    color: darkcyan;
+    margin-top: 20px;
+}
+
+#email_address {
+    width: 200px;
+    height: 40px;
+    font-size: 2rem;
+    opacity: 60.8%;
+    color: darkcyan;
+    margin-top: 20px;
+}
+
+#submit-button {
+    color: #fff;
+    font-size: 2rem;
+    background-color: transparent;
+    width: 50%;
+    height: 50px;
+    animation: glowing 7s infinite;
+    display: block;
+    margin-left: -100px;
+}
