@@ -139,3 +139,58 @@ footer {
     width: 33.3%;
     margin-bottom: 2px;
 }
+
+.button-container {
+    width:400px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    clear: both;
+
+}
+.trigger-switch {
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    background-color: transparent;
+    width: 100%;
+    height:50px;
+    display: inline-block;
+    margin-right: 500px;
+    text-decoration: none;
+    text-align: center;
+    
+}   
+.trigger-switch:hover {
+    border:solid 2px;
+    border-color: yellow;
+    animation: none;
+    color:yellow;
+   
+    
+}
+@keyframes glowing {
+    0% {
+      border-color: transparent;
+      box-shadow: 0 0 0.1px #fff;
+      
+    }
+    50% {
+      border-color: transparent;
+      box-shadow: 0 0 20px #fff;
+    }
+    100% {
+      border-color: transparent;
+      box-shadow: 0 0 0px #fff;
+    }
+  }
+  .trigger-switch {
+    animation: glowing 7s infinite;
+  }
+  .fa-solid .fa-chevron-down {
+    animation: glowing 7s infinite;
+    text-decoration: none;
+  }
