@@ -12,6 +12,7 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
+/* Landing Page styles */
 
 .showcase {
     position:relative;
@@ -318,3 +319,6 @@ footer {
     border-radius: 10px;
     border-color: darkblue;
 }
+
+/* Meditate Page styles */
+
