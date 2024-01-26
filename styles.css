@@ -373,7 +373,18 @@ iframe {
 
 /* flow page styles */
 
-#yoga-videos {
+#yoga-content {
+    display: block;
+    position: absolute;
+    height: auto;
+    width:100%;
+    background-color: lightslategrey;
+    margin:0;
+    padding-top: 0;
+    clear: both;
+}
+
+.yoga-videos {
     position: relative;
     display: block;
     height: 225px;
