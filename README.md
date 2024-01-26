@@ -179,6 +179,7 @@ Dropout. was tested using multiple mobile devices using the inspect functionalit
 While all efforts were taken to ensure responsive design when viewing the website on mobiie device screens. Some elements could display on top of eachother unexpectedly depending on the dimensions of the screen. 
 
 The form submit button is not currently a working submit button. An a tag was used to link to another page to indicate to user that form has submitted. 
+It also does not work on the smallest of media screens. This will need to be fixed in an update. 
 
 ## Credits
 
