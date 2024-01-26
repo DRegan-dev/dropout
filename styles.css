@@ -237,7 +237,7 @@ footer {
 }
 
 #meditation-image {
-    width: 100%;
+    width: 85%;
     height: 100%;
     display: inline-block;
     border-radius: 10px;
@@ -355,7 +355,7 @@ iframe {
     display: block;
 }
 
-.second-color {
+.secondary-color {
     background-color: lightcyan;
 }
 
@@ -454,10 +454,25 @@ iframe {
         align-items: center;
     }
 
+    #benefits {
+        display:block;
+    }
+    
+
     
 }
 
 @media screen and (max-width: 912px) {
+    .meditation-videos {
+        position: relative;
+        align-items: center;
+        height: 500px;
+    }
+
+    .meditation-blurb {
+        margin-left: 10px;
+    }
+    
     .yoga-videos {
         position: relative;
         align-items: center;
@@ -486,7 +501,7 @@ iframe {
         display: flex;
         color: cyan;
         font-size: 20px;
-        margin-left: 200px;
+        margin-left: 120px;
     }
     .text-contrast-color {
         color: lightslategray;
@@ -515,6 +530,55 @@ iframe {
         
     }
 
+}
+
+@media screen and (max-width: 870px) {
+    #meditation-image {
+        display: none;
+    }
+
+    #yoga-image {
+        display: none;
+    }
+
+    #med-benefits h2 {
+        position: relative;
+        font-size: 2em;
+        margin-bottom: 50px;
+        text-align: left;
+        color:#fff;
+        padding-left: 50px;
+    }
+
+    #med-benefits ul {
+        position:relative;
+        font-size: 1em;
+        margin-bottom: 100px;
+        text-align: left;
+        color: #fff;
+        padding-left: 60px;
+        list-style: none;
+    }
+
+    #yoga-benefits h2 {
+        position: relative;
+        font-size: 2em;
+        margin-bottom: 50px;
+        text-align: right;
+        color: #fff;
+        padding-right: 50px;
+        margin-top: -200px;
+    }
+    
+    #yoga-benefits ul {
+        position:relative;
+        font-size: 1em;
+        margin-bottom: 100px;
+        text-align: right;
+        color: #fff;
+        padding-right: 60px;
+        list-style: none;
+    }
 }
 
 @media screen and (max-width: 540px) {
