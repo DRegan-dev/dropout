@@ -1,110 +1,188 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# DropOut. 
+A Virtual Yoga and Meditation Happening
 
-Welcome DRegan-dev,
+## Overview
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The **DropOut** webpage is a virtual platform designed to promote yoga and meditation practices. It serves as an engaging and informative space for users interested in exploring the benefits of meditation and yoga. The site features a visually appealing showcase section on each page with a video background, providing a calming ambiance and video options for meditation or yoga practices of varying lengths of time. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Landing Page 
 
-## Gitpod Reminders
+## Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. **Header Section**
+   - The header includes the DropOut logo and a navigation menu.
+   - Navigation links include "Home," "Meditate," "Flow," and "SignUp."
 
-`python3 -m http.server`
+![Landing page header](./assets/images/landing-page-header.png)
 
-A blue button should appear to click: _Make Public_,
+2. **Showcase Section**
+   - A captivating video background with an overlay.
+   - Descriptive text introducing DropOut as a virtual Yoga and Meditation happening.
+   - A button to trigger the display of additional content.
 
-Another blue button should appear to click: _Open Browser_.
+![Landing page showcase](./assets/images/landing-page-showcase.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+3. **Content Section**
+   - **Benefits of Meditation**
+     - A list of reasons why one should meditate.
+     - An accompanying image of a person meditating.
 
-A blue button should appear to click: _Make Public_,
+![Landing page meditation benefits section](./assets/images/landing-page-med-benefits.png)
 
-Another blue button should appear to click: _Open Browser_.
+   - **Benefits of Yoga**
+     - A list of reasons to practice yoga.
+     - An image illustrating a yoga pose.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Landing page yoga benefits section](./assets/images/landing-page-yoga-benefits.png)
 
-To log into the Heroku toolbelt CLI:
+4. **Footer Section**
+   - Social media links (Facebook, Twitter, Instagram) for community engagement.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Landing page showcase](./assets/images/shared-footer.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Functionality
 
-------
+The webpage includes a JavaScript function that toggles the display of additional content when the user clicks the "trigger-switch" button. This feature enhances user interaction, allowing them to explore information at their pace.
 
-## Release History
+## Meditate. Page 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The **DropOut Meditate** webpage is a platform focused on promoting meditation practices. It offers a serene and immersive experience to encourage users to incorporate meditation into their daily lives. The site features engaging video content, informative blurbs, and a user-friendly design.
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Contents
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+1. **Header Section**
+   - The header includes the DropOut logo, navigation menu, and a toggle button for mobile responsiveness.
+   - Navigation links include "Home," "Meditate," "Flow," and "SignUp."
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+2. **Showcase Section**
+   - A captivating video background with an overlay.
+   - Descriptive text emphasizing the theme: "DropOut of Expectation and into your Self."
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Meditate page showcase](./assets/images/meditation-page-showcase.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+3. **Content Section**
+   - **Meditation Videos**
+     - Three embedded YouTube videos with accompanying blurbs.
+     - Each video emphasizes the transformative impact of dedicating time to meditation.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![Meditation page video section](./assets/images/meditation-page-video-section.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+4. **Footer Section**
+   - Social media links (Facebook, Twitter, Instagram) for community engagement.
+  
+## Flow. Page
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The **DropOut Flow** webpage is dedicated to promoting the practice of yoga and encouraging users to embrace the flow of movement and mindfulness. With a visually appealing design and embedded yoga videos, the page provides a serene space for users to explore and engage in yoga practices.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Contents
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. **Header Section**
+   - The header includes the DropOut logo, navigation menu, and a toggle button for mobile responsiveness.
+   - Navigation links include "Home," "Meditate," "Flow," and "SignUp."
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+2. **Showcase Section**
+   - A captivating video background with an overlay.
+   - Descriptive text emphasizing the theme: "Reach beyond what you thought possible."
+  
+![Flow page showcase](./assets/images/flow-page-showcase.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+3. **Content Section**
+   - **Yoga Videos**
+     - Three embedded YouTube videos with accompanying blurbs.
+     - Each video encourages users to take a transformative break, embracing the benefits of 20, 30, and 60-minute yoga sessions.
+    
+![Flow page video section](./assets/images/flow-page-video-section.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## SignUp. Page
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+The **DropOut SignUp** webpage provides a platform for users to sign up for daily updates and inspiration. With an engaging design, the page encourages users to register by filling out a simple form. The page is part of the DropOut website, offering a seamless experience for those interested in staying connected.
 
-------
+## Contents
 
-## FAQ about the uptime script
+1. **Header Section**
+   - The header includes the DropOut logo, navigation menu, and a toggle button for mobile responsiveness.
+   - Navigation links include "Home," "Meditate," "Flow," and "SignUp."
 
-**Why have you added this script?**
+2. **Showcase Section**
+   - A visually appealing video background with an overlay.
+   - Descriptive text inviting users to sign up for daily updates and inspiration.
+  
+![Sign up page showcase](./assets/images/signup-page.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+3. **Sign-Up Form**
+   - A form with fields for the user's full name and email address.
+   - A submit button for users to complete the sign-up process.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Form-Submitted Page
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The **DropOut Form Submitted** webpage serves as a confirmation page, indicating successful form submission for users who have signed up. This page provides a simple and clear message to inform users that their registration has been received.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Contents
 
-**So….?**
+1. **Header Section**
+   - The header includes the DropOut logo, navigation menu, and a toggle button for mobile responsiveness.
+   - Navigation links include "Home," "Meditate," "Flow," and "SignUp."
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+2. **Showcase Section**
+   - A visually appealing still image background with an overlay.
+   - A brief text message indicating that the form has been successfully submitted.
+  
+![Form Submitted page](./assets/images/form-submitted-page.png)
 
-**Can I opt out?**
+3. **Footer Section**
+   - Social media links (Facebook, Twitter, Instagram) for community engagement.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Functionality
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The page serves as a confirmation message for users who have successfully submitted the sign-up form. It provides a visual indication that their registration has been received.
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+
+
+## External Resources
+
+- **FontAwesome Kit:**
+  - Utilizes FontAwesome icons for social media links.
+  - Kit loaded from [https://kit.fontawesome.com/5125eaa352.js](https://kit.fontawesome.com/5125eaa352.js).
+ 
+## Testing
+
+**Nav Menu Links**
+
+All nav menu links on each page were tested for functionality and to ensure consistant response and design accross each page of the website. 
+All tests were successfull
+
+**Footer Social Media Links**
+
+All footer social media links were tested for functionality and to ensure consistant response and design accross each page of the website. 
+All tests were successfull.
+
+**Trigger-Switch**
+
+All trigger switch a tags on all pages were tested to make sure that they brought the user to the correct part of the website when clicked. 
+All tests were successfull. 
+
+**Embedded Videos**
+
+All embedded videos were tested for funcionality and all videos are working correctly as of the time of submission. 
+
+**Media Queries**
+
+Dropout. was tested using multiple mobile devices using the inspect functionality on google chrome. All elements responded as expected on smaller devices. 
+
+## Known issues 
+
+While all efforts were taken to ensure responsive design when viewing the website on mobiie device screens. Some elements could display on top of eachother unexpectedly depending on the dimensions of the screen. 
+
+The form submit button is not currently a working submit button. An a tag was used to link to another page to indicate to user that form has submitted. 
+
+## Credits
+
+- The JavaScript toggle function was adapted from the "How to toggle Hide and Show" article on [w3schools.com](https://www.w3schools.com/howto/howto_js_toggle_hide_show.asp).
+- Some code is taken and influenced by a project by traversy media on youtube and that video
+  can be found at (https://youtu.be/8MgpE2DTTKA)
+
