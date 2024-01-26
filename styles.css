@@ -442,3 +442,17 @@ iframe {
     display: block;
     margin-left: -100px;
 }
+
+@media screen and (max-width: 1050px) {
+    .video-text {
+        margin-left: 15px;
+    }
+    .yoga-blurb {
+        position: relative;
+        display: flex;
+        margin-left: 400px;
+        align-items: center;
+    }
+
+    
+}
