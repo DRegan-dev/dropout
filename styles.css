@@ -588,3 +588,68 @@ iframe {
         margin-left: 100px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    iframe{
+        position: absolute;
+        width: 80%;
+        height: 75%;
+        display: block;
+        margin-top: 65px;
+        margin-left: 35px;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 300%;
+        margin-top: -85px;
+    }
+
+    .text h2 {
+        font-size: 3em;
+        font-family: 'Dosis', sans-serif;
+        margin-left: -50px;
+    }
+
+    .text h3 {
+        font-size: 1.5rem;
+        font-family: 'Dosis', sans-serif;
+        margin-left: -45px;
+    }
+
+    #email_address {
+        width: 200px;
+        height: 40px;
+        font-size: 2rem;
+        opacity: 60.8%;
+        color: darkcyan;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+
+    #full_name {
+        width: 200px;
+        height: 40px;
+        font-size: 2rem;
+        opacity: 60.8%;
+        color: darkcyan;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+
+    #submit-button {
+        color: #fff;
+        font-size: 2rem;
+        background-color: transparent;
+        width: 50%;
+        height: 50px;
+        animation: glowing 7s infinite;
+        display: block;
+        margin-left: 120px;
+    }
+
+    #yoga-image {
+        display: none;
+    }
+    
+}
